@@ -1,0 +1,117 @@
+body{
+    font-family: "Nunito", sans-serif;
+    color:#2A3342;
+    margin: 0;
+}
+
+header{
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.10);
+    padding-inline: 32px;
+}
+
+header > div{
+    display: flex;
+    font-weight: 700;
+    max-width: 1400px;
+    margin-inline: auto;
+}
+
+.logo-icon{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.logo-icon span{
+    font-weight: 700;
+    font-size: 20px;
+}
+.nav-user-container{
+    display: flex;
+    flex-grow: 1;
+}
+.courses > ul{
+    opacity: 0;
+    position: absolute;
+    border-radius: 5px;
+    border: 1px solid #e9eaeb;
+    background-color: #fff;
+    box-shadow: 0px 4px 10px 0px rgba(30, 27, 27, 0.1);
+    top: 250%;
+    padding: 0;
+    font-size: 15px;
+    width: 250px;
+    padding: 16px 26px;
+    pointer-events: none;
+    transition: all 0.25s ease-in-out;
+}
+.courses > ul>li + li{
+    margin-top: 8px;
+}
+.courses > ul>li:hover{
+    text-decoration: underline;
+}
+
+li{
+    list-style-type: none;
+}
+nav > ul{
+    display: flex;
+    padding: 0;
+    gap: 50px;
+}
+a{
+    text-decoration-line: none;
+    color:#2A3342;
+}
+.user{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-size: 14px;
+    font-weight: 700;
+}
+nav{
+    margin-inline: auto;
+}
+li>span{
+    color:#2A3342;
+    padding-right: 17px;
+}
+
+.courses{
+    cursor: pointer;
+    position: relative;
+}
+
+.courses:hover img{
+    transform: rotate(-180deg);
+}
+.courses:hover ul{
+    opacity: 1;
+    pointer-events: all;
+    top: 110%;
+}
+
+.courses img{
+    transition: all 0.25s ease-in-out;
+}
+
+.green{
+    height: 12px;
+    width: 12px;
+    background-color: #22C55E;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    top: 65%;
+}
+
+.user-icon{
+    position: relative;
+}
+
+@media (max-width: 860px){
+    .nav-user-container{
+        display: none;
+    }
+}
