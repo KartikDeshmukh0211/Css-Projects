@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#001422;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.cir{
+    width: 100px;
+    height: 100px;
+    background: radial-gradient(63.62% 63.62% at 50% 50%, #FF00C7 0%, #BD95FF 0.01%, #A661FF 32.29%, #6100FF 98.59%);
+    border-radius: 50%;
+    position: absolute;
+    
+}
+
+.circle-1{
+    background: radial-gradient(69.62% 69.62% at 50% 50%, #EA8BFA 0%, #7526F5 100%);
+    width: 130px;
+    height: 130px;
+    left: -70px;
+    top: -40px;
+}
+
+.circle-2{
+    background: radial-gradient(63.62% 63.62% at 50% 50%, #FF00C7 0%, #BD95FF 0.01%, #A661FF 32.29%, #6100FF 98.59%);
+    width: 330px;
+    height: 330px;
+    top: -90px;
+    left: 320px;
+}
+
+.circle-3{
+    background: radial-gradient(67.47% 67.47% at 50% 50%, #FED0FF 0%, #7F00FF 100%);
+    width: 230px;
+    height: 230px;
+    left: -140px;
+    top: 450px;
+}
+
+.card-container{
+    position: relative;
+}
+
+.card{
+    max-width: 400px;
+    /* height:520px;          avoid to give height as it crate problem when we are shrinking it */  
+    background: linear-gradient(151.53deg, rgba(255, 255, 255, 0.4) 6.01%, rgba(255, 255, 255, 0.1) 92.61%);
+    backdrop-filter: blur(11px);
+    border-radius: 11px;
+    padding: 18px;
+
+}
+
+.img-main {
+    width: 100%;
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;      
+}
+
+.card-inner{
+    border: 0.74px solid #FFFFFF4D;
+    border-radius: 11px;
+    height: 100%;
+}
+
+.svg-img{
+    width: 25px;
+    cursor: pointer;
+}
+
+.beginner-heart{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+    padding-inline: 15px;
+}
+
+.beginner{
+    background-color: #717158;
+    width: 88px;
+    height: 25px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F3C947;
+    font-size: 1.1rem;
+}
+
+.txt{
+    width: 100%;
+    color: white;
+    padding-inline: 15px;
+    margin-bottom: 20px;
+}
+
+h2{
+    font-size: 21px;
+    font-weight: 700;
+}
+h4{
+    font-size: medium;
+    font-weight: 200;
+    margin: 0;
+    margin-bottom: 15px;
+}
+.star{
+    width: 120px;
+    height: 20px;
+}
+span{
+    font-size: 18px;
+}
+.rate{
+    color: #F1C644;
+    margin-inline: 10px;
+}
+
+.star-rating{
+    display: flex;
+    align-items: center;
+}
+.btn{
+    background-color: transparent;
+    width: 100%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    color: inherit;
+    padding-block: 30px;
+    border-top: 1px solid #FFFFFF3D;
+}

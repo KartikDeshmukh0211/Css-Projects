@@ -1,0 +1,5 @@
+padding inline
+box-sizing: border-box;
+avoid to give height as it crate problem when we are shrinking it    starting madhi deun dyachi ani last madhi kadun takachi
+
+curser pointer  jeva hover hote t asa vatte ki clickable ahi
